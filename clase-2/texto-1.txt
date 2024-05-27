@@ -1,1 +1,2 @@
-Clase 2
+Clase 2 - introducción a VSC y GitHub
+
