@@ -35,9 +35,6 @@ Versión: 3.6.2
 Editor: Yu Zhang
 Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
 
-### Como visualizar el documento
-```ctrl + shift + v```
-
 ## **4)**
 Nombre: HTML to CSS autocompletion
 ID: solnurkarim.html-to-css-autocompletion
@@ -95,3 +92,7 @@ Editor: VSCode Icons Team
 Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
 
 ### Seleccionamos la primera opción que nos aparecerá en VSC
+
+
+### Como visualizar el documento
+```ctrl + shift + v```
