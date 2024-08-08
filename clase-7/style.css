@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    width: 1440px;
+    margin: auto;
+}
+
+
+/* *************** HEADER ****************** */
+
+.barra-nav {
+    border-bottom: solid 1px hsla(217, 9%, 45%, 0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-imagen {
+    height: 25px;
+}
+
+.nav-menu {
+    color: hsl(219, 9%, 45%);
+    font-size: 20px;
+    display: flex;
+    width: 70%;
+    gap: 20px;
+}
+
+.nav-login {
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar {
+    width: 60px;
+}
+
+
+/* *************** MAIN ****************** */
+.contenedor-principal {
+    display: flex;
+}
+
+.galeria {
+    margin: 60px 0;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    grid-template-rows: 600px 100px;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-areas:
+        "principal principal principal principal"
+        "sec-1 sec-2 sec-3 sec-4";
+}
+
+.principal {
+    width: 600px;
+    grid-area: principal;
+    background-color: gray;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.img-sec {
+    width: 120px;
+    border-radius: 10px;
+}
+
+.sec-1 {
+    grid-area: sec-1;
+}
+
+.sec-2 {
+    grid-area: sec-2;
+}
+
+.sec-3 {
+    grid-area: sec-3;
+}
+
+.sec-4 {
+    grid-area: sec-4;
+}
+
+
+.texto {
+    width: 50%;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.texto>h3 {
+    font-size: 20px;
+}
+
+.texto>h1 {
+    font-size: 60px;
+}
+
+.texto>p {
+    font-size: 20px;
+}
+
+.texto-contenedor-precio {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.texto-precio {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.texto-descuento {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.text-precio-viejo {
+    font-size: 20px;
+    text-decoration: line-through;
+    color: hsl(219, 9%, 45%);
+}
+
+.contenedor-btns {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-contador{
+    background-color: aqua;
+    width: 120px;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.btn-menos, .btn-mas, .btn-contador{
+    border: none;
+    font-size: 30px;
+    background-color: rgb(222, 217, 217);
+}
+
+.btn-add{
+    background-color: hsl(26, 100%, 55%);
+    border: none;
+    font-size: 20px;
+    width: 250px;
+    border-radius: 8px;
+}
