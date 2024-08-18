@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(26, 23, 23);
+    color: white;
+
+}
+
+.container-relativo {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 500px;
+    /* height: 2500px; */
+    background-color: gray;
+}
+
+.elemento-absoluto {
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+
+    /* position: absolute; */
+    z-index: 90;
+}
+
+h1 {
+    position: absolute;
+    left: 220px;
+    top: 50px;
+    z-index: 100;
+}
+
+button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: rgb(72, 72, 219);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
