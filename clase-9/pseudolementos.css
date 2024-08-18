@@ -1,0 +1,7 @@
+.pseudoelemento::after{
+    content: " ⬅️";
+}
+
+.pseudoelemento::selection{
+    background-color: violet;
+}

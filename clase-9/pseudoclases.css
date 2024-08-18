@@ -1,0 +1,34 @@
+/* VARIABLES */
+:root{
+    --blue-hover: rgb(82, 82, 255);
+
+}
+
+
+.pseudoclase {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.pseudoclase:hover{
+    cursor: pointer;
+    background-color: var(--blue-hover);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.pseudoclase:active{
+    background-color: rgb(17, 0, 165);
+}
+
+.link-pseudoelemento:hover{
+    background-color: var(--blue-hover);
+}
+.link-pseudoelemento:visited{
+    color: rgb(0, 68, 39);
+}
+.link-pseudoelemento-2{
+    color: violet;
+}
