@@ -1,0 +1,29 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+    width: 40%;
+    margin: auto;
+
+}
+
+label, input, textarea{
+    font-size: 20px;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="submit"]{
+    border: none;
+    padding: 10px 0;
+    width: 50%;
+}
+
+h2{
+    text-align: center;
+}
