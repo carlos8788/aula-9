@@ -30,3 +30,7 @@ a:hover{
 a:active{
     color: pink;
 }
+
+.oferta {
+    color: greenyellow;
+}
